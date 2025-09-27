@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ujjwal Kumar-Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+      <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <div class="logo">Ujjwal Kumar</div>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="theme-toggle" id="themeToggle">🌓</div>
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Ujjwal Kumar</h1>
+        <p class="hero-subtitle">
+          Professional Software Developer & Tech Enthusiast
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">Hire Me</a>
+          <a href="assets/resume.pdf" class="btn-secondary" download
+            >Download Resume</a
+          >
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-image">
+          <img src="images/professional.png" alt="Ujjwal Kumar" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <img
+          src="images/professional.png"
+          alt="About Ujjwal"
+          class="about-image"
+        />
+        <div class="about-text">
+          <p>
+            I am a passionate Software Engineer and Tech Enthusiast with
+            comprehensive experience in Web Development using modern
+            technologies including Python, JavaScript, and SQL. My journey in
+            computer science has equipped me with both theoretical knowledge and
+            practical skills to solve complex problems.
+          </p>
+
+          <h3>🎓 Education</h3>
+          <p>
+            BTech in Computer Science<br />
+            Kanpur Institute of Technology (2023-2027)
+          </p>
+
+          <h3>💡 What I Do</h3>
+          <p>
+            I specialize in creating dynamic web applications, developing
+            efficient backend systems, and designing user-friendly interfaces.
+            My goal is to bridge the gap between design and functionality,
+            creating solutions that are both beautiful and powerful.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+      <h2 class="section-title">Skills & Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-name">HTML5</div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="90"></div>
+            <div class="skill-percentage">90%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">CSS3 & Sass</div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="85"></div>
+            <div class="skill-percentage">85%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">JavaScript ES6+</div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="75"></div>
+            <div class="skill-percentage">75%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Python</div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="80"></div>
+            <div class="skill-percentage">80%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Django Framework</div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="70"></div>
+            <div class="skill-percentage">70%</div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">MySQL Database</div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="75"></div>
+            <div class="skill-percentage">75%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3 class="project-title">College ERP System</h3>
+          <p class="project-description">
+            A comprehensive Enterprise Resource Planning system designed
+            specifically for college management, featuring student records,
+            course management, and administrative tools.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-primary">Live Demo</a>
+            <a href="#" class="btn-secondary">GitHub</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3 class="project-title">Automated Attendance System</h3>
+          <p class="project-description">
+            A mobile application for automated attendance tracking using modern
+            technologies, streamlining the attendance process for educational
+            institutions.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Dart</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-primary">Live Demo</a>
+            <a href="#" class="btn-secondary">GitHub</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3 class="project-title">Library Management System</h3>
+          <p class="project-description">
+            A modern web-based library management solution with book tracking,
+            member management, and automated notification systems built with
+            Django.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Django</span>
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn-primary">Live Demo</a>
+            <a href="#" class="btn-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section reveal">
+      <h2 class="section-title">Services I Offer</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3 class="service-title">Web Development</h3>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-pencil-ruler"></i>
+          </div>
+          <h3 class="service-title">UI/UX Design</h3>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="service-title">Mobile Development</h3>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="service-title">Database Design</h3>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3 class="service-title">Cloud Solutions</h3>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="service-title">Cybersecurity</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-input"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-input"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-input"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-input form-textarea"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="contact-icon fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>ujjwalkumarkumar61@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="contact-icon fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 8858486278</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="contact-icon fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Kanpur, Uttar Pradesh, India</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/ujjwal-kumar-95666b28a/"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/yourusername"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://twitter.com/yourhandle"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/yourhandle"
+              class="social-link"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2025 Ujjwal Kumar. All rights reserved.</p>
+        <p>Designed with ❤️ and modern web technologies</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
